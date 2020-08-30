@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.my_nav{
+    width: 100%;
+}
+
+nav{
+    font-family: Mv boli;}
+
+.sologan{    
+    position: absolute;
+    top: 15px;
+    left: 166px;
+    font-family: Mv boli;
+    width: 40%;
+}
+
+.footer{
+}
+
+.nav-item :hover .nav-link{
+    color: white;
+}
+
+
+
+
+/******************************************************************/
+/*This Section contains all Id's */
+#navbarSupportedContent{
+    float: right;
+    
+}
+
+#navbarSupportedContent ul li{
+    margin-left: 2rem;
+}
+
+/******************************************************************/
+/*This Section contains all Media Transitions*/
+@media screen and (max-width:991px){
+	
+	#navbarSupportedContent{			
+		float: left;
+	}
+	
+}
+@media screen and (max-width:515px){
+	
+	.sologan{		
+        font-size: smaller;
+        transition: 0.5s;
+        display: none;
+    }
+	
+}
