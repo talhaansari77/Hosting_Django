@@ -1,0 +1,110 @@
+
+
+navbar-nav li :hover a{
+    color: #0a72bf;
+}
+
+.navbar-nav li{
+margin-left: 3rem;
+}
+.navbar-nav li a{
+font-weight: bold;
+}
+.mycard{
+    padding: 1rem;
+    box-shadow: 5px 10px 20px 5px #e6e6e6;
+}
+
+.apply{
+    background-color: #0a72bf;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    font-weight: bold;
+}
+:hover.apply {
+color: white;
+}
+.hashtages{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+}
+.hashtages li{
+    border: 1px solid #0a72bf;
+    padding:  10px 25px 10px 25px;
+    background-color: rgb(230, 249, 255);
+    list-style: none;
+    margin-left: 20px;
+}
+.hashtages li a{
+    text-decoration: none;
+}
+
+#row1{
+    position: relative;
+    left: 59.5%;
+    float: left;
+}
+
+@media screen and (max-width: 1300px) {
+    #row1 {
+        position: relative;
+        left: 59%;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .hashtages li{
+        transition: 0.5s;
+transform: scale(0.7);
+margin: 0%;
+    }
+  }
+
+  
+  .social-icons{
+      color: white;
+  }
+
+  .footernav li{
+      list-style: none;
+     padding-top: 8px;
+     padding-bottom: 8px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .footernav li a{
+      
+    text-align: left;
+    padding-left: 0;
+    color: white;    
+    text-decoration: none;
+  }
+  .footnavtitle{
+      color: white;
+  }
+  .footernav{
+    padding: 0;
+  }
+  .footer{
+      background-color: black;
+      /* padding: 10px 10px 0px 10px; */
+  }
+  .bgcopyrighttext{
+      background-color: black;
+      
+  }
+  .incopyrighttext{
+      background-color: #707070;
+      border-radius:100% 100% 0% 0% ;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+  }
+ .title{
+     font-weight: bold;
+     font-size: 25px;
+ }
