@@ -31,13 +31,14 @@ color: white;
 }
 .hashtages li{
     border: 1px solid #0a72bf;
-    padding:  10px 25px 10px 25px;
+    padding:  2px 20px 2px 20px;
     background-color: rgb(230, 249, 255);
     list-style: none;
     margin-left: 20px;
 }
 .hashtages li a{
     text-decoration: none;
+    font-size:15px
 }
 
 #row1{
